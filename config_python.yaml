@@ -1,0 +1,40 @@
+accepted_content_types:
+  - text/html
+  - application/xhtml+xml
+  - text/plain
+  - text/xml
+  - application/xml
+  - application/json
+base_url: https://www.python.org
+binary_extensions:
+  - .pdf
+  - .zip
+  - .exe
+  - .tar
+  - .tar.gz
+  - .tgz
+  - .rar
+  - .iso
+  - .bin
+  - .7z
+  - .dmg
+  - .tar.xz
+  - .pkg
+  - .bz2
+  - .chm
+  - .msi
+  - .psd
+  - .asc
+  - .sigstore
+db_path: data/python_org.db
+delay: 1
+generate_sitemap: true
+llm:
+  endpoint: http://localhost:1234/v1/chat/completions
+  max_tokens: 16529
+  model: jinaai.readerlm-v2@q4_k_m
+  temperature: 0.7
+log_file: data/python_org.log
+max_depth: 2
+save: true
+verbose: true

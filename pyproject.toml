@@ -1,0 +1,10 @@
+[project]
+name = "python-org-data"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "safarnama>=0.1.1",
+    "woodsman>=0.1.0",
+]
