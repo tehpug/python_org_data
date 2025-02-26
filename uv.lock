@@ -1421,7 +1421,7 @@ wheels = [
 
 [[package]]
 name = "woodsman"
-version = "0.1.0"
+version = "0.1.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "sqlalchemy" },
@@ -1429,7 +1429,7 @@ dependencies = [
     { name = "streamlit-extras" },
     { name = "tabulate" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/9d/3b/6dd85b44e51a557e229030e21633d5f05b294106c791e92911a69c0f5069/woodsman-0.1.0.tar.gz", hash = "sha256:bb202e7007c79db0fa0fcb1056d9b87215756a4f6cdb72fefef63c9da0a7457d", size = 90252 }
+sdist = { url = "https://files.pythonhosted.org/packages/f4/e1/11621a5af1b4bafcdf8b3b080b97976a92febb47ffa98fd25fae3b64347f/woodsman-0.1.2.tar.gz", hash = "sha256:cae0e4efc729ffd8db430634609f1c1bdec4f0167d77bd06efbc2a6e4163a741", size = 91836 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/06/b3/c4f4a291a494da24e4dc033d331561f88c4b18470794d43bdf566ccc7947/woodsman-0.1.0-py3-none-any.whl", hash = "sha256:7abfadbf6d544944bcf6fc43fb27732fc6467a14b480bb13dad72228ed190c34", size = 4666 },
+    { url = "https://files.pythonhosted.org/packages/07/5b/39895a830983c8d91fd4c94de95fe4a508a2b93d6a19f5bc6536b6fe31aa/woodsman-0.1.2-py3-none-any.whl", hash = "sha256:7c8235cea4b9ac12f3c62cd82b0718cf73c511dfc9c944010cba5a25a2bf5dbd", size = 5625 },
 ]
